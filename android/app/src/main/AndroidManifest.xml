@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fidget_app">
-   <application
-        android:label="fidget_app"
+    package="com.mathiasyde.fidget_app">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:label="Fidget App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"

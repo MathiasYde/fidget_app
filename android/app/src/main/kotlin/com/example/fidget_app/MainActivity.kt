@@ -1,4 +1,4 @@
-package com.example.fidget_app
+package com.mathiasyde.fidget_app
 
 import io.flutter.embedding.android.FlutterActivity
 
